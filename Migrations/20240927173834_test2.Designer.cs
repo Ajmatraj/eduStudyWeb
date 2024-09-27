@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EduStudyWeb.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240926184221_test1")]
-    partial class test1
+    [Migration("20240927173834_test2")]
+    partial class test2
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -116,7 +116,7 @@ namespace EduStudyWeb.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "6ef4ede5-fdd2-4f27-96ab-061d2bfb39bf",
+                            Id = "10445b0d-fe32-46e7-9d8d-4aecc689685c",
                             Name = "admin",
                             NormalizedName = "Admin"
                         });

@@ -11,5 +11,6 @@ namespace EduStudyWeb.ViewModels
         [NotMapped]
         public IFormFile Image { get; set; }
     }
+   
 }
 
